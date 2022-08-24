@@ -1,4 +1,4 @@
-# Temperatura de marcas - Projeto de Sistemas
+# Termometro de Marcas 🌡️ - Projeto de Sistemas
 
 ## Equipe <br>
 Matheus: add email<br>
