@@ -50,7 +50,7 @@ RNF02 |O sistema deve ser capaz de autenticar usuários.                        
 RNF03 |O sistema deve ser capaz de futuramente possuir uma versão mobile.                 |Portabilidade|Funcionalidade|
 RNF04 |O sistema deve ser capaz de receber mensagens e sugestões de qualquer visitante que seja uma pessoa fisica.           |Usabilidade|Sistema|
 RNF05 |A persistência das informações deverão ser implementadas em um primeiro momento utilizando TAL TECNOLOGIA (armazenamento na nuvem). Entretanto no futuro deve ser possível utilizar outras tecnologias de persistência.| Portabilidade | Sistema  |
-RNF06 |As funcionalidades dos administradores deverão ser acessiveis apenas via plataforma desktop, já os usuários cadastrados poderão ter acesso a suas funcionalidades tanto na versão mobile quanto na versão desktop.| Funcionalidade | Sistema | RNF03
+RNF06 |As funcionalidades dos administradores deverão ser acessiveis apenas via plataforma desktop, já os usuários cadastrados poderão ter acesso a suas funcionalidades tanto na versão mobile quanto na versão desktop.| Funcionalidade | Sistema | |RNF03
 RNF07 | Um usuário novato/visitante deverá aprender qualquer funcionalidade em no máximo 5 minutos, visto que a maioria das funcionalidades serão de visualização e pesquisa.|    Facilidade de Operação   |   Funcionalidade    |
 RNF08 | A entrada de dados/preenchimento dos campos deve durar no máximo 1 minuto, para usuários experientes e que já estão cadastrados na plataforma.|   Operacionalidade    |   Funcionalidade   | 
 RNF09 |O sistema deve ser capaz de verificar se a marca a ser cadastrada existe.                                   |Segurança de acesso |Sistema|
