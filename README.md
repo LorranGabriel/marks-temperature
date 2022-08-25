@@ -39,7 +39,7 @@ RN01 | Para verificar os trends de uma marca a mesma deve estar cadastrada      
 
   #### 2.3 RNF
 Identificador | Descrição | Categoria | Escopo | Prioridade | Dependencia
-:---------: | ---------- | :---------: | :---------: | :---------: | :---------: |
+:---------: | ------------------- | :---------: | :---------: | :---------: | :---------: |
 RNF01 |O sistema deve possuir uma linguagem simples e ser de facil navegabilidade.        |Usabilidade| Sistema|Alta|  |
 RNF02 |O sistema deve ser capaz de autenticar usuários.                                   |Segurança de acesso |Sistema|
 RNF03 |O sistema deve ser capaz de futuramente possuir uma versão mobile.                 |Portabilidade|Funcionalidade|
