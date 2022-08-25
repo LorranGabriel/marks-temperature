@@ -27,14 +27,15 @@ Lorran Gabriel: lorrangabriel20@gmail.com<br>
   
 Identificador | Descrição | Prioridade | Dependencia
 :---------: | ---------- | :---------: | :---------: |
-RF01 | O sistema deve permitir o cadastro de marcas.       |Alta|  |
-RF02 | O sistema deve acessar a API do twitter e obter os dados.       |Alta|  |
-
+RF01 | O sistema deve permitir o cadastro de usuarios.       |Alta|  |
+RF02 | O sistema deve permitir o cadastro de marcas.       |Alta|  |
+RF03 | O sistema deve ser capaz de acessar a API publica do twitter para obter os dado.       |Alta|  |
+RF04 | O sistema deve realizar .       |Alta|  |
 
   #### 2.2 RN
 Identificador | Descrição | Prioridade | Dependencia 
 :---------: | ---------- | :---------: | :---------: |
-RN01 | Apara verificar os trends de uma marca a mesma deve estar cadastrada        |Alta|  |
+RN01 | Para verificar os trends de uma marca a mesma deve estar cadastrada        |Alta|  |
 
   #### 2.3 RNF
 Identificador | Descrição | Categoria | Escopo | Prioridade | Dependencia
