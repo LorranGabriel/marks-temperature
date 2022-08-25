@@ -26,7 +26,7 @@ Lorran Gabriel: lorrangabriel20@gmail.com<br>
   #### 2.1 RF
   
 Identificador | Descrição | Prioridade | Dependencia
-:---------: | ---------- | :---------: | :---------: |
+:---------: | ------------ | :---------: | :---------: |
 RF01 | O sistema deve permitir o cadastro de usuarios.       |Alta|  |
 RF02 | O sistema deve permitir o cadastro de marcas.       |Alta|  |
 RF03 | O sistema deve ser capaz de acessar a API publica do twitter para obter os dado.       |Alta|  |
@@ -34,12 +34,12 @@ RF04 | O sistema deve realizar .       |Alta|  |
 
   #### 2.2 RN
 Identificador | Descrição | Prioridade | Dependencia 
-:---------: | ---------- | :---------: | :---------: |
+:-------: | ------------ | :---------: | :---------: |
 RN01 | Para verificar os trends de uma marca a mesma deve estar cadastrada        |Alta|  |
 
   #### 2.3 RNF
 Identificador | Descrição | Categoria | Escopo | Prioridade | Dependencia
-:---------: | ------------------- | :---------: | :---------: | :---------: | :---------: |
+:-------: | ---------------------------- | :---------: | :---------: | :-------: | :-------: |
 RNF01 |O sistema deve possuir uma linguagem simples e ser de facil navegabilidade.        |Usabilidade| Sistema|Alta|  |
 RNF02 |O sistema deve ser capaz de autenticar usuários.                                   |Segurança de acesso |Sistema|
 RNF03 |O sistema deve ser capaz de futuramente possuir uma versão mobile.                 |Portabilidade|Funcionalidade|
