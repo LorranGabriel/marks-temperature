@@ -30,7 +30,12 @@ Identificador | Descrição | Prioridade | Dependencia
 RF01 | O sistema deve permitir o cadastro de usuarios.       |Alta|  |
 RF02 | O sistema deve permitir o cadastro de marcas.       |Alta|  |
 RF03 | O sistema deve ser capaz de acessar a API publica do twitter para obter os dado.       |Alta|  |
-RF04 | O sistema deve realizar .       |Alta|  |
+RF04 | O sistema deve ser capaz de receber palavras chaves do usuario para pequisa.       |Alta|  |
+RF05 | O sistema deve ser capaz de realizar uma busca por tweets que citam a pesquisa.       |Alta| RF04 |
+RF06 | O sistema deve ser capaz de avaliar qualitativamente através de linguagem natural os tweets filtrados.       |Alta| RF04, RF05 |
+RF07 | O sistema deve ser capaz de gerar um relatorio contendo a avaliação, data do tweet e indicadores como likes, retweets, comentários, visualizações e os autores dos principais tweets sobre o tema.       |Alta| RF04, RF05, RF06 |
+RF08 | O sistema deve ser capaz de persistir os relatorios gerados.       |Alta| RF07 |
+RF09 | O sistema deve possuir uma tela de exibição detalhada para os relatorios.       |Alta| RF07 |
 
   #### 2.2 RN
 Identificador | Descrição | Prioridade | Dependencia 
@@ -48,6 +53,7 @@ RNF05 |A persistência das informações deverão ser implementadas em um primei
 RNF06 |As funcionalidades dos administradores deverão ser acessiveis apenas via plataforma desktop, já os usuários cadastrados poderão ter acesso a suas funcionalidades tanto na versão mobile quanto na versão desktop.| Funcionalidade | Sistema |
 RNF07 | Um usuário novato/visitante deverá aprender qualquer funcionalidade em no máximo 5 minutos, visto que a maioria das funcionalidades serão de visualização e pesquisa.|    Facilidade de Operação   |   Funcionalidade    |
 RNF08 | A entrada de dados/preenchimento dos campos deve durar no máximo 1 minuto, para usuários experientes e que já estão cadastrados na plataforma.|   Operacionalidade    |   Funcionalidade   | 
+RNF09 |O sistema deve ser capaz de verificar se a marca a ser cadastrada existe.                                   |Segurança de acesso |Sistema|
 
 ### 3. Casos de uso
 
